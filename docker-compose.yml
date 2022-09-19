@@ -62,7 +62,7 @@ services:
 
   ## PostgreSQL container for database
   sql:
-    image: postgres:alpine
+    image: postgres:10.22-alpine
     restart: unless-stopped
     environment:
       ## These should equal the same credentials as used on the first container
